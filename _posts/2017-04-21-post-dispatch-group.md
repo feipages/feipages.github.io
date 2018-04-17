@@ -1,11 +1,15 @@
 ---
-title: "Post: Dispatch Group"
-categories:
-  - GCD
+layout:     post
+title:      "Dispatch Group"
+subtitle:   "Dispatch Group"
+date:       2017-04-21 16:00:00
+author:     "Gao Fei"
+header-img: "img/post-bg-2015.jpg"
 tags:
-  - share
-  - facebook
+    - Share
+    - GCD
 ---
+
 
 # dispatch_group 日常使用
 

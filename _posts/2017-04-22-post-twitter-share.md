@@ -1,10 +1,14 @@
 ---
-title: "Post: Twitter share"
-categories:
-  - Thrid SDK
+layout:     post
+title:      "Twitter share"
+subtitle:   "Dispatch Group"
+date:       2017-04-22 16:00:00
+author:     "Gao Fei"
+header-img: "img/post-bg-2015.jpg"
 tags:
-  - share
-  - twitter
+    - Share
+    - Twitter
+    - Thrid SDK
 ---
 
 # Twitter 分享

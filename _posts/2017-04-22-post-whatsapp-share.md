@@ -1,10 +1,14 @@
 ---
-title: "Post: WhatsApp share"
-categories:
-  - Thrid SDK
+layout:     post
+title:      "whatsApp share"
+subtitle:   "Dispatch Group"
+date:       2017-04-22 16:00:00
+author:     "Gao Fei"
+header-img: "img/post-bg-2015.jpg"
 tags:
-  - share
-  - whatsApp
+    - Share
+    - whatsApp
+    - Thrid SDK
 ---
 
 # WhatsApp 分享
