@@ -16,7 +16,7 @@ tags:
 https://fabric.io/kits/ios/twitterkit/manual-install
 ## 1 开发者账号申请注意事项：
 
-![](assets/media/14925836417059/14925860141113.jpg)
+![](img/in-post/media/14925836417059/14925860141113.jpg)
 
 
 ##2 安装步骤：
@@ -24,25 +24,25 @@ https://fabric.io/kits/ios/twitterkit/manual-install
 2.1 Download, unzip, and drag
   下载，解压，拖拽到工程文件
 2.2  Add a Run Script Build Phase
-![](assets/media/14925836417059/14925879419077.jpg)
-![](assets/media/14925836417059/14925882391902.jpg)
-![](assets/media/14925836417059/14925945787875.jpg)
+![](img/in-post/media/14925836417059/14925879419077.jpg)
+![](img/in-post/media/14925836417059/14925882391902.jpg)
+![](img/in-post/media/14925836417059/14925945787875.jpg)
 
-![](assets/media/14925836417059/14925891251063.jpg)
+![](img/in-post/media/14925836417059/14925891251063.jpg)
 
   2.3 Add API Key to Info.plist
 
-  ![](assets/media/14925836417059/14925893095808.jpg)
+  ![](img/in-post/media/14925836417059/14925893095808.jpg)
 
-![](assets/media/14925836417059/14925894119822.jpg)
+![](img/in-post/media/14925836417059/14925894119822.jpg)
 
   
   2.4 Initialize Twitter and Run
 
-![](assets/media/14925836417059/14925896301467.jpg)
+![](img/in-post/media/14925836417059/14925896301467.jpg)
 
 ##3 重要注解：
-![](assets/media/14925836417059/14926599993618.jpg)
+![](img/in-post/media/14925836417059/14926599993618.jpg)
 
 
 ##4 twitter 分享文档：
