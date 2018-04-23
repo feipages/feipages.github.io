@@ -16,7 +16,7 @@ tags:
 
 > 官方文档： https://developers.facebook.com/docs/sharing/overview
 
-##在移动平台上分享 — 分步指南
+## 在移动平台上分享 — 分步指南
 
 * “分享”按钮：显示的时候没有分享计数器。用户轻触“分享”按钮将打开一个新窗口（也称为快速应用切换）。
 * 分享对话框：窗口将显示帖子编辑器，其中包含分享链接的预览。如果用户安装了 iOS 版 Facebook 应用，分享对话框将由 Facebook 应用提供，否则将由 Safari 浏览器提供。轻触“分享”按钮即表示用户确认分享，然后系统将切换回您的应用。
@@ -26,7 +26,7 @@ tags:
 说明：
 目前下载的最新SDK版本为4.21.0，想要使用跳转到Facebook应用分享，需要申请public-action权限，才能使用图谱，否则只能使用web显示分享，目前还没申请下来该权限，只能做到web分享
 
-###第一步：info.plist 文件配置
+### 第一步：info.plist 文件配置
 将以下 XML 代码片段插入文件正文，位于最后的 ==\</dict>== 元素前
 
 
@@ -68,7 +68,7 @@ info.plist 配置说明
 （2）使用应用编号替换 =={your-app-id}==。
 （3）使用您在应用面板中指定的显示名称替换 =={your-app-name}==。
 （4）将 =={human-readable reason for photo access}== 替换为您的应用需要获取照片访问权限的理由
-###第二步：注册Facebook
+### 第二步：注册Facebook
 AppDelegate.m 文件的实现
 \#import \<FBSDKCoreKit/FBSDKCoreKit.h>
 
@@ -103,7 +103,7 @@ AppDelegate.m 文件的实现
 ```
 
 
-###第三步：实现分享功能
+### 第三步：实现分享功能
 
 3.1 使用SDK中的分享按钮FBSDKShareButton
 需要==public_profile==，默认已通过
@@ -151,7 +151,7 @@ SDK中定义的分享按钮如下图：
 * 请求 ==publish_actions== 权限，需要申请
 
 对自定义的分享按钮的样式的说明：
-![](media/14925152141994/14925198369392.jpg)
+![](img/media/14925152141994/14925198369392.jpg)
 申请权限需要注意的事项：
 
 上传视频的注意事项如图所示：
