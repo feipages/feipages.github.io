@@ -19,7 +19,7 @@ https://fabric.io/kits/ios/twitterkit/manual-install
 ![]/img/in-post/media/14925836417059/14925860141113.jpg)
 
 
-##2 安装步骤：
+## 2 安装步骤：
 
 2.1 Download, unzip, and drag
   下载，解压，拖拽到工程文件
@@ -41,11 +41,11 @@ https://fabric.io/kits/ios/twitterkit/manual-install
 
 ![](/img/in-post/media/14925836417059/14925896301467.jpg)
 
-##3 重要注解：
+## 3 重要注解：
 ![](/img/in-post/media/14925836417059/14926599993618.jpg)
 
 
-##4 twitter 分享文档：
+## 4 twitter 分享文档：
 https://docs.fabric.io/apple/twitter/compose-tweets.html
 分享参考：
 
@@ -91,7 +91,7 @@ https://docs.fabric.io/apple/twitter/compose-tweets.html
 
 
 
-##5 问题：
+## 5 问题：
 在ios 9.2.1 上测试，如果用户没登录Twitter账号，点击Twitter分享会崩溃。
 出现的错误日志如下：
 
