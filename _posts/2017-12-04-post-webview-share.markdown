@@ -7,13 +7,15 @@ author:     "Gao Fei"
 header-img: "img/post-bg-ios9-web.jpg"
 tags:
     - URL
+    - WebView
 
 
 ---
 
 
 
-###WKWebView 发送Post请求
+## WKWebView 发送Post请求
+
 在ios8中 使用如下代码 设置请求体仅在UIWebView中好使，在WKWebView中设置的Content-Length始终为0；也就是发送请求的时候，请求体的内容并没携带一起发送给服务器。
 备注：在UIWebView中Content-Length与Content-Type默认会自动创建出来
 
