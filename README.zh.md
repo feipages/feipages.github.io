@@ -2,7 +2,7 @@
 
 # Fei blog
 
-### [我的博客在这里 &rarr;](http://www.ipages.top)
+## [我的博客在这里 &rarr;](http://www.ipages.top)
 ![](http://www.ipages.top/img/blog-desktop.jpg)
 
 ## 致谢
