@@ -1,6 +1,6 @@
 # Site settings
-title: "Fei Blog"
-SEOTitle: "高飞的博客 | Fei Blog"
+title: Fei Blog
+SEOTitle: 高飞的博客 | Fei Blog
 header-img: img/home-bg.jpg
 email: iostouch@126.com
 description: "关于前端与设计、黑客与画家 | 高飞，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
@@ -48,7 +48,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: JsonSmith
+#disqus_username: Json Smith
 
 # Netease setttings
 netease_comment: false
@@ -57,11 +57,11 @@ netease_comment: false
 
 # Analytics settings
 # Baidu Analytics 
- ba_track_id: 9ffab98fa7af4f1a8bb4afa5f887fd7f
+ #ba_track_id: 9ffab98fa7af4f1a8bb4afa5f887fd7f
 
 # Google Analytics
 ga_track_id: 'UA-117666819-1'            # Format: UA-xxxxxx-xx
-ga_domain: www.ipages.top
+ga_domain: ipages.top
 
 
 
