@@ -48,7 +48,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: Json Smith
+disqus_username: JsonSmith
 
 # Netease setttings
 netease_comment: false
@@ -61,7 +61,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-117666819-1'            # Format: UA-xxxxxx-xx
-ga_domain: ipages.top
+ga_domain: www.ipages.top
 
 
 
