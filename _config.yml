@@ -91,34 +91,34 @@ friends: [
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "乱序",
-        href: "http://mida.re/"
+        title: "喵神",
+        href: "https://onevcat.com/"
     },{
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
+        title: "唐巧",
+        href: "http://blog.devtang.com/"
     },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
+        title: "NSHipster",
+        href: "http://nshipster.cn/"
     },{
-        title: "Luke 的自留地",
-        href: "http://hmqk1995.github.io"
+        title: "老谭笔记",
+        href: "http://www.tanhao.me/"
     },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
+        title: "念茜的博客",
+        href: "https://nianxi.net/"
     },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
+        title: "sunnyxx的技术博客",
+        href: "http://blog.sunnyxx.com/"
     },{
-        title: "解旻的博客",
-        href: "http://xieminis.me/"
+        title: "阿毛的蛋疼地",
+        href: "http://xiangwangfeng.com/"
     },{
-        title: "DHong Say",
-        href: "http://dhong.co"
+        title: "I'm TualatriX",
+        href: "https://imtx.me/"
     },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
+        title: "Nico",
+        href: "http://blog.inico.me/"
     },{
-        title: "前端神盾局",
-        href: "http://wepiaofei.github.io/blog/"
+        title: "王中周的技术博客",
+        href: "http://foggry.com/"
     }
 ]
