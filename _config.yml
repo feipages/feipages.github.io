@@ -103,6 +103,10 @@ friends: [
         title: "老谭笔记",
         href: "http://www.tanhao.me/"
     },{
+        title: "玉令天下的博客",
+        href: "http://yulingtianxia.com/"
+  }
+    ,{
         title: "念茜的博客",
         href: "https://nianxi.net/"
     },{
@@ -118,7 +122,32 @@ friends: [
         title: "Nico",
         href: "http://blog.inico.me/"
     },{
-        title: "王中周的技术博客",
+        title: "王中周的技术博客-->实用",
         href: "http://foggry.com/"
-    }
+    },{
+        title: "码农人生-->音视频",
+        href: "http://msching.github.io/"
+    },{
+        title: "JokerJason-->java",
+        href: "http://www.cnblogs.com/jokerjason"
+  },{
+        title: "向晨宇-->实用",
+        href: "http://www.iosxxx.com/"
+ },{
+        title: "里脊串的开发随笔",
+        href: "http://adad184.com/"
+  
+},{
+        title: "Tian Wei Yu-->架构",
+        href: "https://casatwy.com/"
+},{
+        title: "zblade-->游戏",
+        href: "http://www.cnblogs.com/zblade/"
+},{
+        title: "coderyi-->",
+        href: "http://coderyi.com/"
+},{
+        title: "雷纯锋的技术博客-->实用",
+        href: "http://blog.leichunfeng.com/"
+}
 ]
