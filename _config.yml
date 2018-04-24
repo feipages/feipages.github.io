@@ -69,7 +69,7 @@ ga_domain: ipages.top
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "做做移动开发，写写serve，<br>注重过程，就有结果"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-fei.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -91,10 +91,10 @@ friends: [
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "喵神",
+        title: "喵神-->大神",
         href: "https://onevcat.com/"
     },{
-        title: "唐巧",
+        title: "唐巧-->大咖",
         href: "http://blog.devtang.com/"
     },{
         title: "NSHipster",
