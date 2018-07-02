@@ -21,7 +21,7 @@ ios示例:
 SocketManager.h 文件
 ```
 #import <Foundation/Foundation.h>
-
+// 替换为自己的IP地址
 static NSString *kHost = @"192.168.2.22";
 static NSInteger kPort = 8080;
 static NSString *kAdress = @"/websocket/message";
@@ -416,6 +416,7 @@ jsp 文件
 
 <script>  
     var ws = null ;  
+    // 替换为自己的IP地址
     var target="ws://192.168.2.22:8080/websocket/message";  
     if ('WebSocket' in window) {  
         ws = new WebSocket(target);  
