@@ -16,5 +16,20 @@ tags:
 
 ## Tomcat
 
-config配置
+get 请求传送的参数包含中文字符
+常用的解决方式：
+1.当客户端使用的UTF-8编码 将中文参数传送过来时,tomcat 默认采用iso8859-1解码
+'''
+String name = request.getParameter("name");
+name = new String(name.getBytes("iso8859-1"),"utf-8");
+'''
+
+
+2.在tomcat中找到server.xml文件 增加字段 URIEncoding useBodyEncodingForURI
+'''
+<Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443" URIEncoding="UTF-8" useBodyEncodingForURI="true"/>
+
+'''
+
+
 
