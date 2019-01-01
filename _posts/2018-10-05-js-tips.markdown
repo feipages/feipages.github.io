@@ -12,38 +12,38 @@ tags:
 
 ---
 
-1. Web JS的组成
+### Web JS的组成
 ECMAScript + DOM + BOM
 
-ECMAScript（前身为欧洲计算机制造商协会）
-JavaScript的语法规范
-DOM（Document Object Model 的简称）
-JavaScript操作网页上元素的API
-BOM（Browser Object Model 的简称）
-JavaScript操作浏览器部分功能的API
+- ECMAScript（前身为欧洲计算机制造商协会）
+- JavaScript的语法规范
+- DOM（Document Object Model 的简称）
+- JavaScript操作网页上元素的API
+- BOM（Browser Object Model 的简称）
+- JavaScript操作浏览器部分功能的API
 
-2. 输出语句
+### 输出语句
 
-console.log(“内容”)在控制台打印输出内容
-console.error(“错误”)在控制台打印输出错误内容
-console.warn(“警告”)在控制台打印输出警告内容
-alert(“内容”)弹窗显示内容
-document.write(“内容”)在页面书写内容
-prompt(“输入”)
-confirm(“”)
+- console.log(“内容”)在控制台打印输出内容
+- console.error(“错误”)在控制台打印输出错误内容
+- console.warn(“警告”)在控制台打印输出警告内容
+- alert(“内容”)弹窗显示内容
+- document.write(“内容”)在页面书写内容
+- prompt(“输入”)
+- confirm(“”)
 
-3. 数据类型
+### 数据类型
 
-值类型
-字符串  数字    布尔     未定义
-String Number Boolean undefined
+1. 值类型
+  - 字符串  数字    布尔     未定义
+  - String Number Boolean undefined
 
-引用类型
-Object function Array Date null ...
+2. 引用类型
+   - Object function Array Date null ...
 
 3.1. 值类型介绍 
 
-4. 函数
+### 函数
 
 js中没有方法重载
 函数也是一种类型
