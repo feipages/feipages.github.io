@@ -151,3 +151,5 @@ friends: [
         href: "http://blog.leichunfeng.com/"
 }
 ]
+
+theme: jekyll-theme-cayman
