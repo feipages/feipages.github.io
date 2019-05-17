@@ -20,7 +20,7 @@ xcode打包需要配置
 1.检查基本的配置
 ![WechatIMG54](/img/in-post/media/15111440909345/WechatIMG54.jpeg)
 
-![WechatIMG53](/img/in-post/media/15111440909345/WechatIMG53.jpeg)
+![WechatIMG53](./img/in-post/media/15111440909345/WechatIMG53.jpeg)
 
 2.选择支持的最低版本
 ![WechatIMG4161](/img/in-post/media/15111440909345/WechatIMG4161.jpeg)
