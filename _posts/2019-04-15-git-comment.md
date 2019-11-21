@@ -198,6 +198,13 @@ $ git push [remote] --force
 
 # 推送所有分支到远程仓库
 $ git push [remote] --all
+
+# 推送某一个commit 到远程仓库
+$ git push [remote name] [commit hash]:[remote branch name]
+
+# 推送所有tag到远程仓库
+$ git push [remote] --tags
+
 ```
 
 
