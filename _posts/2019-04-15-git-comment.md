@@ -159,7 +159,7 @@ $ git push [remote] --tags
 $ git checkout -b [branch] [tag]
 
 # 切换为由远程创建的分支
-$ git checkout -b [branch] [remote]/[branch]
+$ git checkout -b [branch] [remote/branch]
 ```
 ####  查看信息
 ```
