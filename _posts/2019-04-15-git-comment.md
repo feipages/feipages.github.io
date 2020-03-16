@@ -209,6 +209,17 @@ $ git push [remote name] [commit hash]:[remote branch name]
 $ git push [remote] --tags
 
 ```
+####  回滚
+```
+# 回退到上个版本
+$ git reset --hard HEAD^
+# 回退到前3次提交之前，以此类推，回退到n次提交之前  
+$ git reset --hard HEAD~3
+# 退到/进到 指定commit的sha码        
+$ git reset --hard [commit_id] 
+# 强制推到远程
+$ git push origin HEAD --force    
 
+```
 
 
