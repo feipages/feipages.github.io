@@ -186,7 +186,7 @@ $ git remote add [shortname] [url]
 
 # 更新远程仓库地址
 $ git remote set-url [shortname] [url]
-$ $ git remote set-url origin http://originproject.git
+$ git remote set-url origin http://originproject.git
 
 # 修改远程仓库名
 $ git remote rename [current-shortname] [new-shortname]
