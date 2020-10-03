@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "git 常见命令汇总"
+title:      "git 使用汇总"
 subtitle:   "备用技能"
 date:       2019-04-15 14:00:00
 author:     "Gao Fei"
@@ -11,6 +11,55 @@ tags:
 
 
 ---
+
+## Git配置多个SSH-Key
+
+当有多个git账号时，比如：
+
+a. 一个gitlab，用于公司内部的工作开发;
+
+b. 一个github，用于自己进行一些开发活动;
+
+### 解决方法
+(1) 生成一个公司用的SSH-Key
+
+``` 
+# 在~/.ssh/目录会生成gitlab_id-rsa和gitlab_id-rsa.pub私钥和公钥。我们将gitlab_id-rsa.pub中的内容粘帖到公司GitLab服务器的SSH-key的配置中
+$ ssh-keygen -t rsa -C 'xxxxx@company.com' -f ~/.ssh/gitlab_id_rsa
+``` 
+
+(2) 生成一个github用的SSH-Key
+
+``` 
+ssh-keygen -t rsa -C 'xxxxx@qq.com' -f ~/.ssh/github_id_rsa
+``` 
+
+(3) 在 ~/.ssh 目录下新建一个config文件，添加如下内容（其中Host和HostName填写git服务器的域名，IdentityFile指定私钥的路径）
+
+``` 
+# 添加config配置文件
+# vi ~/.ssh/config
+# 或者
+# touch ~/.ssh/config
+
+# 文件内容如下
+# gitlab
+Host gitlab.com
+HostName gitlab.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/gitlab_id_rsa
+# github
+Host github.com
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/github_id_rsa
+``` 
+(4) 用ssh命令分别测试
+
+``` 
+$ ssh -T git@gitlab.com
+$ ssh -T git@github.com
+``` 
 
 ## 常见的git命令
 
