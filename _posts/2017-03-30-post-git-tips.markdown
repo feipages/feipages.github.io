@@ -10,14 +10,18 @@ tags:
 
 ---
 
-## pull request 操作流程
+## pull request 基本操作流程
 
+
+```
 <!--远程代码-->
 $ git remote -v
 
-`origin	http://58.250.71.52:8081/gaofei/FSMobileAssistant.git (fetch)
-origin	http://58.250.71.52:8081/gaofei/FSMobileAssistant.git (push)`
+origin	http://58.250.71.52:8081/gaofei/FSMobileAssistant.git (fetch)
+origin	http://58.250.71.52:8081/gaofei/FSMobileAssistant.git (push)
 
+```
+```
 $ git remote add http://58.250.71.52:8081/iOS_Group/FSMobileAssistant.git
 
 usage: git remote add [<options>] <name> <url>
@@ -70,8 +74,9 @@ Auto-merging MobileAssistant/Sections/Approval/CustomerUI/DetailView/ADetailReas
 Auto-merging MobileAssistant/Sections/Approval/CustomerUI/DetailView/ADetailNameCell.m
 Auto-merging MobileAssistant/Sections/Approval/CustomerUI/DetailView/ADetailDescriptionCell.m
 Automatic merge failed; fix conflicts and then commit the result.`
-
-`整体流程如下：
+```
+```
+整体流程如下：
 第一步：
 bogon:FSMobileAssistant awei$ git add .
 第二步：
@@ -93,14 +98,16 @@ Writing objects: 100% (209/209), 171.21 KiB | 0 bytes/s, done.
 Total 209 (delta 153), reused 162 (delta 123)
 To http://58.250.71.52:8081/gaofei/FSMobileAssistant.git
    1e7ae50..b989627  master -> master
-bogon:FSMobileAssistant awei$`
+bogon:FSMobileAssistant awei$
+```
 
 
 ## 一. 在合并远程代码的时候，或许会出现以下问题：
 
 I'm in the process of learning github on mac (command-line) and whenever I do git pull origin master i get this
 
-```# Please enter a commit message to explain why this merge is necessary,
+```
+# Please enter a commit message to explain why this merge is necessary,
 # especially if it merges an updated upstream into a topic branch.
 #
 # Lines starting with '#' will be ignored, and an empty message aborts
@@ -124,16 +131,26 @@ I'm in the process of learning github on mac (command-line) and whenever I do gi
 ".git/MERGE_MSG" 7L, 293C
 ```
 两种解决方式：
-方式一：You're in the text editor, vim! It's a modal text editor, so you would need to:
+方式一：
+
+You're in the text editor, vim! It's a modal text editor, so you would need to:
+
+```
 	1.	Press ==i== to enter insert mode.
 	2.	Now you can type your message, as if you were in a normal (non-modal) text editor.
 	3.	Press ==esc== to go back to command mode.
 	4.	Then type *:w* followed by ==enter== to save.
 	5.	Finally *:q* followed by ==enter== to quit.
-	6. 
+	
+```
+
 方式二：
+
+```
 Make it simple.
+
 Type *:wq* and ==enter==
+```
 
 2017-04-20 高飞
 

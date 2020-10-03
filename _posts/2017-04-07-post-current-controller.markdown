@@ -13,12 +13,16 @@ tags:
 
 ## 1.Get the current view controller from the app delegate
 
+`
 参考：http://stackoverflow.com/questions/24825123/get-the-current-view-controller-from-the-app-delegate%EF%BC%89
+`
 
 扩展一个方法：
 
 UIViewController+Utils.h
-```#import <UIKit/UIKit.h>
+
+```
+#import <UIKit/UIKit.h>
 
 @interface UIViewController (Utils)
 
@@ -26,6 +30,7 @@ UIViewController+Utils.h
 
 @end
 ```
+
 UIViewController+Utils.m
 
 ```#import "UIViewController+Utils.h"
