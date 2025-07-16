@@ -1,10 +1,13 @@
 import { defineConfig } from 'vitepress'
+import { set_sidebar } from "./utils/auto-gen-sidebar.mts";	// 改成自己的路径
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "my blog project",
-  description: "a blog site",
+  title: "前端技术知识库",
+  description: "记录前端的技术知识库，包含前端、后端、工程化等内容",
   themeConfig: {
+    outlineTitle: '目录',
+    outline: [2, 6],
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
@@ -27,6 +30,14 @@ export default defineConfig({
         ]
       }
     ],
+    // sidebar: { 
+    //   // "/frontend/base": set_sidebar("frontend/base"),
+    //   "/frontend/ios": set_sidebar("frontend/ios"),
+    //   "/frontend/js": set_sidebar("frontend/js"),
+    //   // "/frontend/vue": set_sidebar("frontend/vue"),
+    //   // "/frontend/swift": set_sidebar("frontend/swift"),
+    //   "/guide": set_sidebar("/guide"),
+    // },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }

@@ -12,6 +12,7 @@
   "author": "gaofei",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^24.0.14",
     "vitepress": "^1.6.3"
   }
 }
