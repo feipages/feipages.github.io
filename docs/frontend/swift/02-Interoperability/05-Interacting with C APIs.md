@@ -626,12 +626,12 @@ var callbacks = CFArrayCallBacks(
 var mutableArray = CFArrayCreateMutable(nil, 0, &callbacks)
 ```
 
-上面的例子中，结构体`CFArrayCallBacks`的构造器使用`nil`作为参数`retain`和`release`的值，使用函数`customCopyDescription`作为参数`copyDescription`的值，最后使用一个闭包字面量作为参数`equal`的值。
+上面的例子中，结构体`CFArrayCallBacks`的构造器使用`nil`作为参数`retain`和`release`的值，使用函数`customCopyDescription`作为参数`copyDescription`的值，最后使用一个闭包字面量作为参数`equal`的值。 
 
 > 注意  
 > 只有使用 C 函数指针调用约定的 Swift 函数才可以作为函数指针参数。如同 C 函数指针，使用`@convention(c)`特性的 Swift 函数同样不具有捕获周围作用域上下文的能力。
 
-更多信息请参阅 [*The Swift Programming Language 中文版*](http://wiki.jikexueyuan.com/project/swift/) 的[类型特性](http://wiki.jikexueyuan.com/project/swift/chapter3/06_Attributes.html#type_attributes)小节。
+更多信息请参阅 [*The Swift Programming Language 中文版*](http://wiki.jikexueyuan.com/project/swift/) 的[类型特性](http://wiki.jikexueyuan.com/project/swift/chapter3/06_Attributes.html#type_attributes)小节。 
 
 <a name="buffer_pointers"></a>
 ### 缓冲区指针

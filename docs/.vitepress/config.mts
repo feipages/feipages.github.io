@@ -15,13 +15,52 @@ export default defineConfig({
         {text:'Vue',link:'/frontend/vue/index'},
         {text:'iOS',link:'/frontend/ios/index'}
       ]},
+      { text: '语言', items:[
+        {text:'js',link:'/frontend/js/index'},
+        {text:'swift',link:'/frontend/swift/index'},
+      ]},
       { text: '工程化', link: '/markdown-examples' },
       { text: '后端', link: '/markdown-examples' },
       { text: 'Examples', link: '/guide/markdown-examples' }
 
     ],
 
-    sidebar: [
+    sidebar: { 
+       "/frontend/vue": [{
+        text: 'Vue',
+        items: set_sidebar("frontend/vue"),
+      }],
+       "/frontend/js": [{
+        text: 'JS',
+        items: set_sidebar("frontend/js"),
+      }],
+      "/frontend/base": [{
+        text: '基础',
+        items: set_sidebar("frontend/base"),
+      }],     
+      "/frontend/ios": [{
+        text: 'iOS',
+        items: set_sidebar("frontend/ios"),
+      }],
+     
+      "/frontend/swift": [{
+        text: 'swift',
+        items: set_sidebar("frontend/swift"),
+      }],
+      "/utils": [{
+        text: '工具',
+        items: [
+          { text: 'Xcode 使用小技巧', link: '/utils/2016-03-28-post-xcode-tips.markdown' },
+          { text: 'Xcode 使用小技巧', link: '/utils/2017-03-28-post-xcode-tips.markdown' },
+          { text: 'Git 技巧', link: '/utils/2019-04-15-git-comment.md' }
+        ]
+      }],
+
+      "/guide": [{
+        text: 'Markdown Examples',
+        items: set_sidebar("guide"),
+      }],
+      "/": [
       {
         text: 'Examples',
         items: [
@@ -30,14 +69,7 @@ export default defineConfig({
         ]
       }
     ],
-    // sidebar: { 
-    //   // "/frontend/base": set_sidebar("frontend/base"),
-    //   "/frontend/ios": set_sidebar("frontend/ios"),
-    //   "/frontend/js": set_sidebar("frontend/js"),
-    //   // "/frontend/vue": set_sidebar("frontend/vue"),
-    //   // "/frontend/swift": set_sidebar("frontend/swift"),
-    //   "/guide": set_sidebar("/guide"),
-    // },
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
