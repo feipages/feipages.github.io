@@ -77,3 +77,5 @@
 |5|BOCI\_appName\_distribution\_apns.certSigningRequest|CSR|自己保留|
 
 将1-4的文件发送给开发人员,开发人员根据新的证书重新打包ipa,上线发布app就可以了。
+
+2019-04-28

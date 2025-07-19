@@ -1,16 +1,3 @@
----
-layout:     post
-title:      "whatsApp share"
-subtitle:   "Dispatch Group"
-date:       2017-04-22 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-2015.jpg"
-tags:
-    - Share
-    - whatsApp
-    - Thrid SDK
----
-
 # WhatsApp 分享
 
 没有开发者平台，分享通过系统自带的

@@ -1,16 +1,4 @@
----
-layout:     post
-title:      "Cocoa Touch Framework"
-subtitle:   "The record related to Version"
-date:       2017-09-18 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-ios9-web.jpg"
-tags:
-    - URL
-
-
----
-
+#    Cocoa Touch Framework
 
 
 ###打包framework(Cocoa Touch Framework)
@@ -52,3 +40,5 @@ xcode打包需要配置
 
 静态库(Cocoa Touch Static Library)
 
+date:       2017-09-18 16:00:00
+author:     "Gao Fei"

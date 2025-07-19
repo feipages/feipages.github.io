@@ -1,17 +1,5 @@
----
-layout:     post
-title:      "Image"
-subtitle:   "The record related to Image"
-date:       2017-11-27 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-ios9-web.jpg"
-tags:
-    - URL
-
-
----
-
-
+#    Image
+>The record related to Image
 
 ## iPhone拍照的部分图片在windows上显示被旋转的问题
 
@@ -128,4 +116,5 @@ tags:
 ```
 
 
-
+date:       2017-11-27 16:00:00
+author:     "Gao Fei"

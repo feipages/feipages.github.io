@@ -1,15 +1,4 @@
----
-layout:     post
-title:      "Version"
-subtitle:   "The record related to Version"
-date:       2017-09-18 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-ios9-web.jpg"
-tags:
-    - URL
-
-
----
+#     Version
 
 
 ## 开发版本对比
@@ -25,5 +14,6 @@ Stress Testing 压力测试
 Performance Evaluation Testing(PET)性能测试
 
 
-
+date:       2017-09-18 16:00:00
+author:     "Gao Fei"
 

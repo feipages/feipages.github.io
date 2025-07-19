@@ -1,16 +1,3 @@
----
-layout:     post
-title:      "Facebook share"
-subtitle:   "Facebook share"
-date:       2017-04-20 12:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-2015.jpg"
-tags:
-    - Share
-    - Facebook
-    - Thrid SDK
----
-
 
 # Facebook 分享
 

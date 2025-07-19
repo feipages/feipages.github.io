@@ -1,15 +1,7 @@
----
-layout:     post
-title:      "Url Coding"
-subtitle:   "与url相关的处理"
-date:       2017-07-06 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-2015.jpg"
-tags:
-    - URL
-    - HTTP
+#      "Url Coding"
+>subtitle:   "与url相关的处理"
 
----
+
 
 #Encoding and Decoding URL Data
 
@@ -56,4 +48,5 @@ the path component is /index.html
 the fragment is jumpLocation
 
 
-
+date:       2017-06-06 16:00:00
+author:     "Gao Fei"

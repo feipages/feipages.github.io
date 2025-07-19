@@ -1,15 +1,6 @@
----
-layout:     post
-title:      "Get Current ViewController"
-subtitle:   "Get the current view controller from the app delegate"
-date:       2017-04-07 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-2015.jpg"
-tags:
-    - iOS
-    - ViewController
+#     Get Current ViewController
+>  "Get the current view controller from the app delegate"
 
----
 
 ## 1.Get the current view controller from the app delegate
 
@@ -92,6 +83,7 @@ UIViewController+Utils.m
 ```
 
 
-
+date:       2017-04-07
+author:     "Gao Fei"
 
 

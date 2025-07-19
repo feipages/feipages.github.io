@@ -1,16 +1,5 @@
----
-layout:     post
-title:      "使用iTunes获取ipa"
-subtitle:   "备用技能"
-date:       2018-12-31 14:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-ios9-web.jpg"
-tags:
-    - iTunes
-    - ipa
+#    使用iTunes获取ipa
 
-
----
 
 目前使用iTunes 12.7以上的版本已经无法下载ipa包，故需要安装iTunes 12.6以下的版本
 安装连接：https://support.apple.com/en-us/HT208079
@@ -36,4 +25,6 @@ tags:
 5. 任意下载自己需要的app
 
 
+date:       2018-12-31 14:00:00
+author:     "Gao Fei"
 

@@ -1,16 +1,3 @@
----
-layout:     post
-title:      "React Native 入门"
-subtitle:   "基础"
-date:       2020-06-12 14:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-ios9-web.jpg"
-tags:
-    - swift
-    
-
-
----
 
 ## React Native 入门
 

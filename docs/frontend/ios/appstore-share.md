@@ -1,12 +1,4 @@
----
-layout:     post
-title:      "Appstore"
-subtitle:   "The record related to Appstore"
-date:       2017-09-15 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-2015.jpg"
-tags:
-    - URL
+#     Appstore
 
 
 ---
@@ -27,3 +19,5 @@ tags:
 
 
 
+date:       2017-09-15 16:00:00
+author:     "Gao Fei"

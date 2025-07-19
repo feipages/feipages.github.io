@@ -1,15 +1,4 @@
----
-layout:     post
-title:      "Twitter share"
-subtitle:   "Dispatch Group"
-date:       2017-04-22 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-2015.jpg"
-tags:
-    - Share
-    - Twitter
-    - Thrid SDK
----
+#    "Twitter share"
 
 # Twitter 分享
 参考文档：https://fabric.io/kits/ios/twitterkit/install

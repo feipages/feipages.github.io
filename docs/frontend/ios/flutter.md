@@ -1,17 +1,3 @@
----
-layout:     post
-title:      "Flutter 入门"
-subtitle:   "基础"
-date:       2020-05-12 14:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-ios9-web.jpg"
-tags:
-    - Flutter
-    
-
-
----
-
 ## Flutter 入门
 
 ### 1. Flutter 介绍

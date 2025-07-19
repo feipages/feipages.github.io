@@ -1,15 +1,4 @@
----
-layout:     post
-title:      "Dispatch Group"
-subtitle:   "Dispatch Group"
-date:       2017-03-17 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-2015.jpg"
-tags:
-    - Share
-    - GCD
----
-
+#     "Dispatch Group"
 
 # dispatch_group 日常使用
 
@@ -88,3 +77,5 @@ dispatch_group_notify(group, dispatch_get_main_queue(), ^{
 
 ```
 
+date:       2017-03-17 16:00:00
+author:     "Gao Fei"

@@ -1,17 +1,3 @@
----
-layout:     post
-title:      "Instagram share"
-subtitle:   "Instagram share"
-date:       2017-04-20 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-2015.jpg"
-tags:
-    - Share
-    - Instagram
-    - Thrid SDK
----
-
-
 
 # Instagram 分享
 
@@ -153,4 +139,5 @@ tags:
 
 ```
 
-
+date:       2017-04-20 16:00:00
+author:     "Gao Fei"

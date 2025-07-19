@@ -1,16 +1,4 @@
----
-layout:     post
-title:      "Version"
-subtitle:   "The record related to Version"
-date:       2017-09-18 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-ios9-web.jpg"
-tags:
-    - URL
-
-
----
-
+#    Download issues
 
 ### 下载问题
 - (void)URLSession:(NSURLSession *)session
@@ -41,3 +29,5 @@ load...
 
 
 
+date:       2017-09-18 16:00:00
+author:     "Gao Fei"

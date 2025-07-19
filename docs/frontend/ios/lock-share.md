@@ -1,15 +1,5 @@
----
-layout:     post
-title:      "杂记"
-subtitle:   "琐碎的记录"
-date:       2017-08-11 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-2015.jpg"
-tags:
-    - Lock
-    - Cache
+#  琐碎的记录
 
----
 
 ## 数据存储方式对比
  
@@ -72,5 +62,6 @@ MPEG (mpg)，文件头：000001B3
 
 
 
-
+date:       2017-08-11 16:00:00
+author:     "Gao Fei"
 

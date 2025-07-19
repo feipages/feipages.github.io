@@ -1,16 +1,4 @@
----
-layout:     post
-title:      "cocoapods 入门"
-subtitle:   "基础"
-date:       2020-03-24 14:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-ios9-web.jpg"
-tags:
-    - git
-    
-
-
----
+#     cocoapods 入门
 
 ## COCOAPODS 入门
 
@@ -53,7 +41,8 @@ $ ng g component components/home
 ```
 
 
-
+date:       2020-03-24 14:00:00
+author:     "Gao Fei"
 
 
 

@@ -1,18 +1,4 @@
----
-layout:     post
-title:      "ios 自动打包脚本"
-subtitle:   "工具"
-date:       2020-12-17 14:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-ios9-web.jpg"
-tags:
-    - tool
-    
-
-
----
-
-## ios 自动打包脚本
+# ios 自动打包脚本
 
 ### 1. 配置导出plist文件
 在项目工程相同的目录下创建 ExportOptions_UAT.plist 文件，文件的内容如下：
@@ -179,7 +165,8 @@ exit 0
 ``` 
 
 
- 
+ date:       2020-12-17 14:00:00
+author:     "Gao Fei"
 
 
 

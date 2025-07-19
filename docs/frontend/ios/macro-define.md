@@ -1,15 +1,6 @@
----
-layout:     post
-title:      "Macro Define"
-subtitle:   "常用的宏定义"
-date:       2017-04-22 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-2015.jpg"
-tags:
-    - iOS
-    - Macro
+#     Macro Define
+>常用的宏定义
 
----
 
 # 1. DEBUG Log
 
@@ -130,6 +121,8 @@ NSOperatingSystemVersion version = (NSOperatingSystemVersion){8,2,0};
     }
 ```
 
+date:       2017-04-22 16:00:00
+author:     "Gao Fei"
 
 
 

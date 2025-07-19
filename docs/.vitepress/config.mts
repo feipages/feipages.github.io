@@ -50,8 +50,8 @@ export default defineConfig({
       "/utils": [{
         text: '工具',
         items: [
-          { text: 'Xcode 使用小技巧', link: '/utils/2016-03-28-post-xcode-tips.markdown' },
-          { text: 'Xcode 使用小技巧', link: '/utils/2017-03-28-post-xcode-tips.markdown' },
+          { text: 'Xcode 使用小技巧', link: '/utils/2016-03-28-post-xcode-tips.md' },
+          { text: 'Xcode 使用小技巧', link: '/utils/2017-03-28-post-xcode-tips.md' },
           { text: 'Git 技巧', link: '/utils/2019-04-15-git-comment.md' }
         ]
       }],
