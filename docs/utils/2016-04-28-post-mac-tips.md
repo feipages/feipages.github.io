@@ -4,7 +4,7 @@ title:      "Mac Tips"
 subtitle:   "Some use for mac"
 date:       2016-04-28 16:00:00
 author:     "Gao Fei"
-header-img: "img/post-bg-2015.jpg"
+header-img: "../../../public/img/post-bg-2015.jpg"
 tags:
     - Mac
 ---

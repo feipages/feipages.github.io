@@ -4,7 +4,7 @@ title:      "Facebook share"
 subtitle:   "Facebook share"
 date:       2017-04-20 12:00:00
 author:     "Gao Fei"
-header-img: "img/post-bg-2015.jpg"
+header-img: "../../../public/img/post-bg-2015.jpg"
 tags:
     - Share
     - Facebook
@@ -138,7 +138,7 @@ content.contentURL = [NSURL URLWithString:@"https://developers.facebook.com"];
 ```
 
 SDK中定义的分享按钮如下图：
-![](/img/in-post/media/14925152141994/14925202210363.jpg)
+![](../../../public/img/in-post/media/14925152141994/14925202210363.jpg)
 
 
 
@@ -151,11 +151,11 @@ SDK中定义的分享按钮如下图：
 * 请求 ==publish_actions== 权限，需要申请
 
 对自定义的分享按钮的样式的说明：
-![](/img/in-post/media/14925152141994/14925198369392.jpg)
+![](../../../public/img/in-post/media/14925152141994/14925198369392.jpg)
 申请权限需要注意的事项：
 
 上传视频的注意事项如图所示：
-![](/img/in-post/media/14925152141994/14925722696364.jpg)
+![](../../../public/img/in-post/media/14925152141994/14925722696364.jpg)
 
 
 3.4 自定义分享内容

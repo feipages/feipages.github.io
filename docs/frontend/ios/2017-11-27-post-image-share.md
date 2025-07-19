@@ -4,7 +4,7 @@ title:      "Image"
 subtitle:   "The record related to Image"
 date:       2017-11-27 16:00:00
 author:     "Gao Fei"
-header-img: "img/post-bg-ios9-web.jpg"
+header-img: "../../../public/img/post-bg-ios9-web.jpg"
 tags:
     - URL
 

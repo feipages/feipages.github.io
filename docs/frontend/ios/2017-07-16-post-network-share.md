@@ -4,7 +4,7 @@ title:      "Network"
 subtitle:   "与网络相关的处理"
 date:       2017-07-16 16:00:00
 author:     "Gao Fei"
-header-img: "img/post-bg-2015.jpg"
+header-img: "../../../public/img/post-bg-2015.jpg"
 tags:
     - Network
     - HTTP

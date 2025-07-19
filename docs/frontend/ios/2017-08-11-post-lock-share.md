@@ -4,7 +4,7 @@ title:      "杂记"
 subtitle:   "琐碎的记录"
 date:       2017-08-11 16:00:00
 author:     "Gao Fei"
-header-img: "img/post-bg-2015.jpg"
+header-img: "../../../public/img/post-bg-2015.jpg"
 tags:
     - Lock
     - Cache

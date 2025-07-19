@@ -4,7 +4,7 @@ title:      "Tomcat Introduction"
 subtitle:   "The record related to Tomcat"
 date:       2018-7-22 14:00:00
 author:     "Gao Fei"
-header-img: "img/post-bg-ios9-web.jpg"
+header-img: "../../../public/img/post-bg-ios9-web.jpg"
 tags:
     - Tomcat
     - TCP/UDP

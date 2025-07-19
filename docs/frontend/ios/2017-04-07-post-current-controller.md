@@ -4,7 +4,7 @@ title:      "Get Current ViewController"
 subtitle:   "Get the current view controller from the app delegate"
 date:       2017-04-07 16:00:00
 author:     "Gao Fei"
-header-img: "img/post-bg-2015.jpg"
+header-img: "../../../public/img/post-bg-2015.jpg"
 tags:
     - iOS
     - ViewController

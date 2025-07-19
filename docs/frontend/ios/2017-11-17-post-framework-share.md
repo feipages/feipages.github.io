@@ -4,7 +4,7 @@ title:      "Cocoa Touch Framework"
 subtitle:   "The record related to Version"
 date:       2017-09-18 16:00:00
 author:     "Gao Fei"
-header-img: "img/post-bg-ios9-web.jpg"
+header-img: "../../../public/img/post-bg-ios9-web.jpg"
 tags:
     - URL
 
@@ -18,27 +18,27 @@ tags:
 xcode打包需要配置
 
 1.检查基本的配置
-![WechatIMG54](/img/in-post/media/15111440909345/WechatIMG54.jpeg)
+![WechatIMG54](../../../public/img/in-post/media/15111440909345/WechatIMG54.jpeg)
 
-![WechatIMG53](./img/in-post/media/15111440909345/WechatIMG53.jpeg)
+![WechatIMG53](.../../../public/img/in-post/media/15111440909345/WechatIMG53.jpeg)
 
 2.选择支持的最低版本
-![WechatIMG4161](/img/in-post/media/15111440909345/WechatIMG4161.jpeg)
+![WechatIMG4161](../../../public/img/in-post/media/15111440909345/WechatIMG4161.jpeg)
 
 3. 改为静态打包(对于ios8以上的系统，可以使用动态库(Dynamic Library))
-![WechatIMG4162](/img/in-post/media/15111440909345/WechatIMG4162.jpeg)
+![WechatIMG4162](../../../public/img/in-post/media/15111440909345/WechatIMG4162.jpeg)
 
 4. 导入工程中.m与 .h文件
-![WechatIMG4163](/img/in-post/media/15111440909345/WechatIMG4163.jpeg)
+![WechatIMG4163](../../../public/img/in-post/media/15111440909345/WechatIMG4163.jpeg)
 
 
 合并模拟器与真机版本
 
-![WechatIMG55](/img/in-post/media/15111440909345/WechatIMG55.jpeg)
+![WechatIMG55](../../../public/img/in-post/media/15111440909345/WechatIMG55.jpeg)
 
-![WechatIMG56](/img/in-post/media/15111440909345/WechatIMG56.jpeg)
+![WechatIMG56](../../../public/img/in-post/media/15111440909345/WechatIMG56.jpeg)
 
-![WechatIMG57](/img/in-post/media/15111440909345/WechatIMG57.jpeg)
+![WechatIMG57](../../../public/img/in-post/media/15111440909345/WechatIMG57.jpeg)
 
 
 在终端输入
