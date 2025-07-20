@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "my blog project"
-  text: "a blog site"
-  tagline: My great project tagline
+  name: "让技术赋能业务开发"
+  text: "高效稳定赋能业务运行"
+  tagline: "Keep Reading, Keep Thinking, Keep Coding"
   image:
     src: /background.svg
     alt: 背景图

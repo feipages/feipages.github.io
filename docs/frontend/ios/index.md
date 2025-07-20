@@ -1,16 +1,4 @@
----
-layout:     post
-title:      "App Tips"
-subtitle:   "Add View"
-date:       2017-04-22 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-2015.jpg"
-tags:
-    - View
-    
----
-
-# 程序启动过程
+# iOS App 程序启动过程
 
 在main函数中进行的设置UIApplication对象的代理。
 App容易受到干扰。正在玩游戏，一个电话打过来了。
@@ -45,6 +33,7 @@ didFinishLaunchingWithOptions-->applicationDidBecomeActive
 
 
 
-
+date:       2017-04-22 16:00:00
+author:     "Gao Fei"
 
 

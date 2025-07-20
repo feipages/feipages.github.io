@@ -19,8 +19,9 @@ export default defineConfig({
         {text:'js',link:'/frontend/js/index'},
         {text:'swift',link:'/frontend/swift/index'},
       ]},
-      { text: '工程化', link: '/markdown-examples' },
-      { text: '后端', link: '/markdown-examples' },
+      { text: '工程化', link: '/engineering' },
+      { text: '后端', link: '/backend/container/tomcat' },
+      { text: '网络', link: '/network' },
       { text: 'Examples', link: '/guide/markdown-examples' }
 
     ],
@@ -37,6 +38,9 @@ export default defineConfig({
       "/frontend/base": [{
         text: '基础',
         items: set_sidebar("frontend/base"),
+      },{
+        text: '其他',
+        items: set_sidebar("frontend/other"),
       }],     
       "/frontend/ios": [{
         text: 'iOS',
@@ -57,10 +61,23 @@ export default defineConfig({
       }],
 
       "/guide": [{
-        text: 'Markdown Examples',
-        items: set_sidebar("guide"),
+        text: 'Markdown 介绍',
+        items: [
+          { text: 'Markdown 基础语法', link: '/guide/markdown' },
+          { text: 'Markdown 扩展语法', link: '/guide/markdown-extension' },
+          { text: 'Markdown 样例', link: '/guide/markdown-examples' },
+          { text: 'api 样例', link: '/guide/api-examples' },
+        ],
       }],
-      "/": [
+      "/network": [
+      {
+        text: '网络',
+        items: [
+          { text: 'http网络请求', link: '/network/https-tips' },
+          
+        ]
+      }],
+      "/engineering": [
       {
         text: 'Examples',
         items: [
