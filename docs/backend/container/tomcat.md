@@ -1,18 +1,3 @@
----
-layout:     post
-title:      "Tomcat Introduction"
-subtitle:   "The record related to Tomcat"
-date:       2018-7-22 14:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-ios9-web.jpg"
-tags:
-    - Tomcat
-    - TCP/UDP
-
-
----
-
-
 # Tomcat 介绍
 
 Tomcat用户密码
@@ -39,5 +24,22 @@ Tomcat用户密码
 注意：使用Linux 开发过程 需要修改tomcat的访问权限
 
 
+## 1.get 请求传送的参数包含中文字符
+常用的解决方式：
+1.当客户端使用的UTF-8编码 将中文参数传送过来时,tomcat 默认采用iso8859-1解码
+'''
+String name = request.getParameter("name");
+name = new String(name.getBytes("iso8859-1"),"utf-8");
+'''
+
+
+2.在tomcat中找到server.xml文件 增加字段 URIEncoding useBodyEncodingForURI
+'''
+<Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443" URIEncoding="UTF-8" useBodyEncodingForURI="true"/>
+
+'''
+
+date:       2018-08-12 16:00:00
+author:     "Gao Fei"
 
 

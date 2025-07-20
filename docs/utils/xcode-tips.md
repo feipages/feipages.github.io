@@ -1,14 +1,4 @@
----
-layout:     post
-title:      "Xcode Tips"
-subtitle:   "How to use Xcode"
-date:       2017-03-28 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-e2e-ux.jpg"
-tags:
-    - Xcode
-    
----
+#   Xcode Tips
 
 # Xcode IDE
 
@@ -57,11 +47,7 @@ Swift project
 #endif
 ```
 
-
-
-
-
-
-2017-04-20 高飞
+date:       2017-03-28 16:00:00
+author:     "Gao Fei"
 
 

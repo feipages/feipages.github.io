@@ -1,16 +1,3 @@
----
-layout:     post
-title:      "HTTPS share"
-subtitle:   "Https"
-date:       2017-04-22 16:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-2015.jpg"
-tags:
-    - Https
-    - NSURLSession
-
----
-
 # HTTPS网站访问过程
 
 相对于普通HTTP网络请求，访问HTTPS时，浏览器会帮我们做很多影藏的工作。
@@ -72,5 +59,6 @@ typedef NS_ENUM(NSInteger, NSURLSessionAuthChallengeDisposition) {
 
 
 
-
+date:       2017-04-22 16:00:00
+author:     "Gao Fei"
 

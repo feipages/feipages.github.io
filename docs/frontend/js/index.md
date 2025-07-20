@@ -1,16 +1,5 @@
----
-layout:     post
-title:      "JS 的使用"
-subtitle:   "备用知识点"
-date:       2018-10-05 14:00:00
-author:     "Gao Fei"
-header-img: "../../../public/img/post-bg-ios9-web.jpg"
-tags:
-    - JS
-    - DOM
+# JS 的使用
 
-
----
 
 ### Web JS的组成
 ECMAScript + DOM + BOM
@@ -49,5 +38,6 @@ js中没有方法重载
 函数也是一种类型
 
 
-
+date:       2018-10-05 14:00:00
+author:     "Gao Fei"
 
