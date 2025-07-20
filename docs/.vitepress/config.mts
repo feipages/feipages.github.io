@@ -89,8 +89,13 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/feipages' },
+      { icon: 'github', link: '/guide/profile' }
     ],
+    footer: {
+      copyright: 'Copyright © 2017-present Gao Fei',
+      message: 'Released under the MIT License.',
+    },
 
     search: {
       provider: 'local',

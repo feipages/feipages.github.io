@@ -5,18 +5,21 @@ layout: home
 hero:
   name: "让技术赋能业务开发"
   text: "高效稳定赋能业务运行"
-  tagline: "Keep Reading, Keep Thinking, Keep Coding"
+  tagline: "Keep Reading, Keep Thinking, Keep Doing"
   image:
     src: /background.svg
     alt: 背景图
 
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /guide/markdown-examples
+      text: 关于
+      link: /guide/about.md
     - theme: alt
-      text: API Examples
-      link: /guide/api-examples
+      text: iOS
+      link: /frontend/ios
+    - theme: alt
+      text: Markdown 
+      link: /guide/markdown
 
 features:
   - title: 前端开发
