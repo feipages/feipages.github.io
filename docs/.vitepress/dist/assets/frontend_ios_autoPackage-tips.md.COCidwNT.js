@@ -1,0 +1,8 @@
+import{_ as s,c as e,o as n,ag as t}from"./chunks/framework.BHpayLOB.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"frontend/ios/autoPackage-tips.md","filePath":"frontend/ios/autoPackage-tips.md"}'),p={name:"frontend/ios/autoPackage-tips.md"};function o(c,a,i,l,r,d){return n(),e("div",null,a[0]||(a[0]=[t(`<p>#自动打包测试流程 1、将AutoPackageShell文件夹放到项目根目录下 2、打开autoPackageShell.sh文件，修改下列项目参数成你要打包的项目：</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span># 是否编译工作空间 (例:若是用Cocopods管理的.xcworkspace项目,赋值true;用Xcode默认创建的.xcodeproj,赋值false)</span></span>
+<span class="line"><span>is_workspace=&quot;false&quot;</span></span>
+<span class="line"><span>#scheme名（一般是Target名)</span></span>
+<span class="line"><span>scheme_name=&quot;MobileAssistant_SIT&quot;</span></span>
+<span class="line"><span>#指定项目名称</span></span>
+<span class="line"><span>project_name=&quot;MobileAssistant&quot;</span></span>
+<span class="line"><span># 指定要打包编译的方式 : Release,Debug...</span></span>
+<span class="line"><span>build_configuration=&quot;Release&quot;</span></span></code></pre></div><p>3、打开exportOptionsPlist.plist文件，把teamID改成打包证书的teamID</p><p>4、打开终端，cd到AutoPackageShell文件夹，输入命令 sh autoPackageShell.sh  回车</p><p>备注：Xcode 安装了多个版本之后，可以将目标打包的Xcode名称(eg:Xcode8.2.app)改为Xcode.app teamID可以在xxx.xcodeproj包文件中==project.pbxproj==，找到==DEVELOPMENT_TEAM==的值</p><p>date: 2017-06-01 16:00:00 author: &quot;Gao Fei&quot;</p>`,6)]))}const g=s(p,[["render",o]]);export{_ as __pageData,g as default};

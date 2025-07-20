@@ -17,7 +17,7 @@
 	- [可变指针](#mutable_pointers)
 	- [自动释放指针](#autoreleasing_pointers)
 	- [函数指针](#function_pointers)
-	- [缓冲区指针](#buffer_pointers)
+	<!-- - [缓冲区指针](#buffer_pointers) -->
 	- [空指针](#null_pointers)
 	- [指针运算](#pointer_arithmetic)
 - [数据类型大小计算](#data_type_size_calculation)
@@ -474,7 +474,7 @@ Swift 尽可能地避免直接使用指针。不过，Swift 也提供了多种�
 | const void * | UnsafeRawPointer |
 | void * | UnsafeMutableRawPointer |
 
-Swift 还提供了用于操作缓冲区的指针类型，如[缓冲区指针](buffer_pointers)所述。
+<!-- Swift 还提供了用于操作缓冲区的指针类型，如[缓冲区指针](buffer_pointers)所述。 -->
 
 如果指针的类型在 Swift 中无法表示，例如某个不完备的结构体类型，Swift 会将之导入为`OpaquePointer`。
 

@@ -21,7 +21,7 @@ build_configuration="Release"
 备注：Xcode 安装了多个版本之后，可以将目标打包的Xcode名称(eg:Xcode8.2.app)改为Xcode.app
 teamID可以在xxx.xcodeproj包文件中==project.pbxproj==，找到==DEVELOPMENT_TEAM==的值 
 
-![AutoPackageShell.zip](../../../public/img/in-post/zip/AutoPackageShell_2017.zip)
+<!-- ![AutoPackageShell.zip](/img/in-post/zip/AutoPackageShell_2017.zip) -->
 
 
 date:       2017-06-01 16:00:00

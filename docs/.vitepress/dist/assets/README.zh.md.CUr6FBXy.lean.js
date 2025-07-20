@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r,ag as o}from"./chunks/framework.BHpayLOB.js";const d=JSON.parse('{"title":"Fei blog","description":"","frontmatter":{},"headers":[],"relativePath":"README.zh.md","filePath":"README.zh.md"}'),l={name:"README.zh.md"};function i(s,a,h,n,p,_){return r(),t("div",null,a[0]||(a[0]=[o("",5)]))}const g=e(l,[["render",i]]);export{d as __pageData,g as default};

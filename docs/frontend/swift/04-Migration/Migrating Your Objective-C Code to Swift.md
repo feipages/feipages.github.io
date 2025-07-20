@@ -37,7 +37,7 @@
 
 * 使用 Objective-C API 的时候，你需要知道 Swift 是怎样转化某些 Objective-C 语言特性的。更多信息请参阅[与 Objective-C API 交互](../02-Interoperability/01-Interacting%20with%20Objective-C%20APIs.md)章节。
 
-* 使用 Cocoa 框架的代码时，记住某些类型已经被桥接，这意味着可以使用 Swift 类型去替代 Objective-C 类型。更多信息请参阅[使用 Cocoa 框架](../02-Interoperability/03-Working%20with%20Cocoa%20Frameworks.md)章节。
+<!-- * 使用 Cocoa 框架的代码时，记住某些类型已经被桥接，这意味着可以使用 Swift 类型去替代 Objective-C 类型。更多信息请参阅[使用 Cocoa 框架](../02-Interoperability/03-Working%20with%20Cocoa%20Frameworks.md)章节。 -->
 
 * 使用 Cocoa 设计模式的时候，请参阅[采用 Cocoa 设计模式](../02-Interoperability/04-Adopting%20Cocoa%20Design%20Patterns.md)章节。
 

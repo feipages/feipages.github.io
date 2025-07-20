@@ -685,7 +685,7 @@ class MyViewController: UIViewController {
 
 可以使用`perform(_:)`方法以及它的变体在兼容 Objective-C 的对象上调用方法。使用选择器调用方法并非内在安全的，因为编译器无法保证结果，甚至无法保证对象能否响应选择器。因此，坚决不提倡使用这些 API，除非代码确实依赖于 Objective-C 运行时提供的动态方法决议。例如，实现一个类似`NSResponder`这种在接口中使用了目标-行为设计模式的类。绝大多数情况下，将对象转换为`AnyObject`类型，再使用可选链语法调用方法会更为安全和方便，请参阅 [id 兼容性](#id_compatibility) 小节获取更多信息。
 
-`perform(_:)`方法同步执行，并返回隐式解包可选类型的非托管对象（`Unmanaged<AnyObject>!`），这是因为通过执行选择器返回的值的类型和所有权无法在编译期决定。请参阅 [非托管对象](03-Working%20with%20Cocoa%20Data%20Types.md#%E9%9D%9E%E6%89%98%E7%AE%A1%E5%AF%B9%E8%B1%A1) 小节获取更多信息。与此相反，该方法的一些变体在指定线程执行选择器，或者延迟执行，例如`perform(_:on:with:waitUntilDone:modes:)`和`perform(_:with:afterDelay:)`，它们没有返回值。
+<!-- `perform(_:)`方法同步执行，并返回隐式解包可选类型的非托管对象（`Unmanaged<AnyObject>!`），这是因为通过执行选择器返回的值的类型和所有权无法在编译期决定。请参阅 [非托管对象](03-Working%20with%20Cocoa%20Data%20Types.md#%E9%9D%9E%E6%89%98%E7%AE%A1%E5%AF%B9%E8%B1%A1) 小节获取更多信息。与此相反，该方法的一些变体在指定线程执行选择器，或者延迟执行，例如`perform(_:on:with:waitUntilDone:modes:)`和`perform(_:with:afterDelay:)`，它们没有返回值。 -->
 
 ```swift
 let string: NSString = "Hello, Cocoa!"

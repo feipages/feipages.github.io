@@ -55,7 +55,7 @@ typedef NS_ENUM(NSInteger, NSURLSessionAuthChallengeDisposition) {
 ```
 
 
-参考：[http://www.cnblogs.com/Mike-zh/p/5174238.html](HTTPS访问控制)
+参考：![HTTPS访问控制](http://www.cnblogs.com/Mike-zh/p/5174238.html)
 
 
 
