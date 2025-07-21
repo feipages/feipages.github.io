@@ -125,7 +125,7 @@ content.contentURL = [NSURL URLWithString:@"https://developers.facebook.com"];
 ```
 
 SDK中定义的分享按钮如下图：
-<!-- ![](/img/in-post/media/14925152141994/14925202210363.jpg) -->
+![](/img/in-post/media/14925152141994/14925202210363.jpg)
 
 
 
@@ -138,11 +138,11 @@ SDK中定义的分享按钮如下图：
 * 请求 ==publish_actions== 权限，需要申请
 
 对自定义的分享按钮的样式的说明：
-<!-- ![](/img/in-post/media/14925152141994/14925198369392.jpg) -->
+![](/img/in-post/media/14925152141994/14925198369392.jpg)
 申请权限需要注意的事项：
 
 上传视频的注意事项如图所示：
-<!-- ![](/img/in-post/media/14925152141994/14925722696364.jpg) -->
+![](/img/in-post/media/14925152141994/14925722696364.jpg)
 
 
 3.4 自定义分享内容
