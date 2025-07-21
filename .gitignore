@@ -1,10 +1,10 @@
 _site
+.vitepress/cache
+docs/.vitepress/cache
+docs/.vitepress/dist
 node_modules
 npm-debug.log
 .DS_Store
 */.DS_Store
 */*/.DS_Store
 #*.sh
-.vitepress/cache
-docs/.vitepress/cache
-docs/.vitepress/dist
